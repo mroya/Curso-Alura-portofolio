@@ -65,5 +65,18 @@ body {
     padding: 21.5px 0;
     text-decoration: none;
     color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+    padding: 3%;
+}
+
+.apresentacao__conteudo__titulo:hover {
+    color: #22D4FD;
+}
+
+.titulo-destaque:hover {
+    color: #ffffff;
 }
