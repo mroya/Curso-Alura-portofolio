@@ -156,6 +156,10 @@ body {
         padding: 5%;
     }
 
+    .apresentacao__imagem {
+        width: 50%;
+    }
+
     .apresentacao__conteudo {
         width: auto;
     }
