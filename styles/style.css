@@ -4,6 +4,8 @@
     --cor-primaria: #3A3845;
     --cor-secundaria: #F7CCAC;
     --cor-terciaria: #EEEEEE;
+    --cor-mediaQuery-body: #698269;
+    --cor-mediaQuery-rodape: #AA5656;
     --cor-hover: #826F66;
 
     --fonte-principal: 'Krona One', sans-serif;
@@ -135,6 +137,11 @@ body {
 }
 
 @media (max-width: 1200px) {
+    
+    body {
+        background-color: var(--cor-mediaQuery-body);
+    }
+    
     .cabecalho {
         padding: 10%;
     }
@@ -151,5 +158,9 @@ body {
 
     .apresentacao__conteudo {
         width: auto;
+    }
+    
+    .rodape {
+        background-color: var(--cor-mediaQuery-rodape);
     }
 }
